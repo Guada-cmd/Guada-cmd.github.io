@@ -158,19 +158,21 @@
 .principal .contenido-principal .texto-1{
     color:  #1e1e1e;
     font-size: 27px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .principal .contenido-principal .texto-2{
     color:  #1e1e1e;
-    font-size: 75px;
+    font-size: 72px;
     font-weight: 600;
-    margin-left: -3px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .principal .contenido-principal .texto-3{
     color: #1e1e1e;
     font-size: 40px;
     margin: 5px 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .typing-demo {
