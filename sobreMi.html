@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guadalupe Plaza Gómez</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo"><a href="/index.html">Guadalupe <span>Plaza</span></a></div>
+                <ul class="menu">
+                    <li><a href="/index.html" class="btn-menu">Principal</a></li>
+                    <li><a href="/sobreMi.html" class="btn-menu">Sobre mí</a></li>
+                    <li><a href="/proyectos.html">Proyectos</a></li>
+                    <li><a href="/contacto.html">Contacto</a></li>
+                </ul>
+                <div class="btn-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+        
+        <!--Parte Principal sobre mi--> 
+
+        <section class="principal-contacto" id="principal-contacto">
+          <div class="max-width">
+            <div class="wrapper">
+              <h1 class="section-header-contacto">Sobre Mí</h1>
+              <p class="texto-contacto">¡Hola! Soy Guadalupe Plaza Gómez, soy una persona con muchas ganas de aprender que estudia el
+                  Grado en Ingeniería Informática de la Escuela Superior de Informática en la Universidad de Castilla-La Mancha. Actualmente 
+                  me encuentro cursando el último año de la carrera, en la intensificación de Tecnologías de la Información, y en un futuro me 
+                  gustaría hacer el Máster en la misma Universidad. Ahora, en lo que más estoy interesada es en el desarrollo de aplicaciones
+                  web.</p>
+
+              <p class="texto-contacto">Relacionado con la experiencia laboral, estoy realizando el programa <code class="destacar">FORTE</code>, que consiste en 
+              que los estudiantes próximos a la finalización de la carrera pueden sumergirse en el desarrollo de un proyecto real 
+              que se esté llevando a cabo dentro de una empresa. Además, para el verano de 2022, he sido seleccionada para hacer un Internship
+              de tres meses en la <code class="destacar">Universidad Tecnológica de Bialystok</code> en Polonia.</p>
+              
+              <!--Ubicacion botones contactar y curriculum--> 
+
+              <div class="frame">
+                <div class="buttons">
+                  <button class="cv" id="btn-cv" onclick="myFunctionCV()">Curriculum</button>
+                  <button class="cv" id="btn-contactar" onclick="myFunction()">Contactar</button>
+                </div>
+              </div>
+
+              <div class="row-data">
+                <div class="column-data">
+                  <h2>Nombre</h2>
+                  <p>Guadalupe Plaza Gómez</p>
+                </div>
+                <div class="column-data">
+                  <h2>Nacimiento</h2>
+                  <p>23/04/2000</p>
+                </div>
+                <div class="column-data">
+                  <h2>Email</h2>
+                  <p>Guadalupe.Plaza@alu.uclm.es</p>
+                </div>
+              </div>
+                            
+              <div class="row-data">
+                <div class="column-data" >
+                  <h2>Dirección</h2>
+                  <p>Ciudad Real</p>
+                </div>
+                <div class="column-data" >
+                  <h2>Teléfono</h2>
+                  <p>(+34) 609 477 913</p>
+                </div>
+                <div class="column-data" >
+                  <h2>Edad</h2>
+                  <p>21 años</p>
+                </div>
+              </div>
+
+              <!--Seccion educacion y formacion-->   
+
+              <h1 class="section-header-contacto">Educación y Formación</h1>
+
+              <div class="blog-card">
+                <div class="meta">
+                  <div class="photo" style="background-image: url(/img/uclm.jpg)"></div>         
+                </div>
+                <div class="description">
+                  <h1>UCLM</h1>
+                  <h2>04/09/2018 - Actualidad</h2>
+                  <p> La Universidad de Castilla-La Mancha es una universidad pública española en la comunidad autónoma de Castilla-La Mancha.</p>
+                  <p class="read-more">
+                    <a href="https://www.uclm.es/">Leer más</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="meta">
+                  <div class="photo" style="background-image: url(/img/esi.jpg)"></div>         
+                </div>
+                <div class="description">
+                  <h1>Grado en Ingeniería Informática (Bilingüe)</h1>
+                  <h2>04/09/2018 - Actualidad</h2>
+                  <p> La Escuela Superior de Informática es uno de los centros universitarios de la Universidad de Castilla–La Mancha. 
+                      Formación e investigación en el ámbito de la Ingeniería Informática. 
+                      <code class="destacar">Intensificación: </code>Tecnologías de la Información.</p>
+                  <p class="read-more">
+                    <a href="https://esi.uclm.es/">Leer más</a>
+                  </p>
+                </div>
+              </div>
+                      
+              <div class="blog-card">
+                <div class="meta">
+                  <div class="photo" style="background-image: url(/img/uclm.jpg)"></div>   
+                </div>
+                <div class="description">
+                  <h1>XV Simposio de Ciencia Joven 2021</h1>
+                  <h2>07/07/2021 - 07/07/2021</h2>
+                  <p> Conferencia Facultad de Ciencias y Tecnoloías Químicas (UCLM).</p>         
+                  <p class="read-more">
+                    <a href="https://www.uclm.es/">Leer más</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="meta">
+                  <div class="photo" style="background-image: url(/img/uclm.jpg)"></div>         
+                </div>
+                <div class="description">
+                  <h1>Introducción a QPath</h1>
+                  <h2>20/07/2021 - 21/07/2021</h2>
+                  <p> Introducción a la programación de software cuántico con QPath. Curso ofertado por la Universidad de Castilla-La Mancha.</p>         
+                  <p class="read-more">
+                    <a href="https://www.uclm.es/">Leer más</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="meta">
+                  <div class="photo" style="background-image: url(/img/uclm.jpg)"></div>         
+                </div>
+                <div class="description">
+                  <h1>Competencias Transversales (Emprendimiento)</h1>
+                  <h2>01/02/2021 - 02/02/2021</h2>
+                  <p> Curso ofertado por la Universidad de Castilla-La Mancha.</p>
+                  <p class="read-more">
+                    <a href="https://www.uclm.es/">Leer más</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="meta">
+                  <div class="photo" style="background-image: url(/img/uclm.jpg)"></div>       
+                </div>
+                <div class="description">
+                  <h1>Competencias Transversales (Regulación Emocional)</h1>
+                  <h2>01/02/2021 - 03/02/2021</h2>
+                  <p> Curso ofertado por la Universidad de Castilla-La Mancha.</p>
+                  <p class="read-more">
+                    <a href="https://www.uclm.es/">Leer más</a>
+                  </p>
+                </div>
+              </div>
+                     
+              <div class="blog-card">
+                <div class="meta">
+                  <div class="photo" style="background-image: url(/img/uclm.jpg)"></div>           
+                </div>
+                <div class="description">
+                  <h1>Competencias Transversales (Automotivación y Productividad)</h1>
+                  <h2>01/02/2021 - 03/02/2021</h2>
+                  <p> Curso ofertado por la Universidad de Castilla-La Mancha.</p>
+                  <p class="read-more">
+                    <a href="https://www.uclm.es/">Leer más</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="meta">
+                  <div class="photo" style="background-image: url(/img/excel.jpg)"></div>         
+                </div>
+                <div class="description">
+                  <h1>Curso de Ofimática</h1>
+                  <h2>02/09/2019 - 13/09/2019</h2>
+                  <p> Curso ofertado por la Academia Aproba2.</p>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="meta">
+                  <div class="photo" style="background-image: url(/img/esi.jpg)"></div>
+                </div>
+                <div class="description">
+                  <h1>Curso Básico de matemáticas y física</h1>
+                  <h2>04/09/2018 - 07/09/2018</h2>
+                  <p> Curso ofertado por la Escuela Superior de Informática.</p>
+                  <p class="read-more">
+                    <a href="https://esi.uclm.es/">Leer más</a>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+        </section>
+
+        <!--Seccion Experiencia en el extranjero-->  
+
+        <section class="extranjero" id="extranjero">
+
+          <h1 class="section-header-contacto">Experiencia en el extranjero</h1>
+
+          <div class="max-width">
+            <div class="wrapper">
+
+              <div class="blog-card">
+                <div class="meta">       
+                  <div class="photo" style="background-image: url(/img/alemania.jpg)"></div>         
+                </div>
+                <div class="description">
+                  <h1>Intercambio Escolar</h1>
+                  <h2>25/06/2015 - 02/07/2015</h2>
+                  <p> Intercambio Escolar entre el Instituto de educación secundaria Johann-Andreas-Schmeller (Nabburg, Alemania)
+                      y el IES Maestro Juan de Ávila (Ciudad Real, España).</p>            
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="meta">
+                  <div class="photo" style="background-image: url(/img/dinamarca.png)"></div> 
+                </div>
+                <div class="description">
+                  <h1>Erasmus + "Generación SiSoMo" Project</h1>
+                  <h2>05/02/2017 - 09/07/2021</h2>
+                  <p> Proyecto realizado en la Ciudad de Roskilde (Dinamarca).</p>             
+                </div>
+              </div>
+                
+            </div>
+        </section>
+
+        <!--Seccion Competencias de idiomas-->  
+
+        <section class="competencias-idiomas" id="competencias-idiomas">
+          
+          <h1 class="section-header-contacto">Competencias de Idiomas</h1>
+
+          <div class="max-width">
+            <div class="wrapper">
+
+              <div class="cols">
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/spain_flag.png)"></div>   
+                </div>
+              </div>
+
+              <div class="col" ontouchstart="this.classList.toggle('hover');">
+                <div class="container">
+                  <div class="front-herramientas" style="background-image: url(/img/united-kingdom.png)"></div>       
+                </div>
+              </div>
+
+              <div class="col" ontouchstart="this.classList.toggle('hover');">
+                <div class="container">
+                  <div class="front-herramientas" style="background-image: url(/img/germany.png)"></div>       
+                </div>
+              </div>
+
+              <div class="col" ontouchstart="this.classList.toggle('hover');">
+                <div class="container">
+                  <div class="front-herramientas" style="background-image: url(/img/china.png)"></div>       
+                </div>
+              </div>
+
+              <div class="table">
+                <div class="table-cell"></div>
+                  <div class="table-cell plattform">
+                    <h3>Certificado Oficial</h3>
+                  </div>
+                  <div class="table-cell plattform">
+                    <h3>Certificado No Oficial</h3>
+                  </div>
+
+                  <div class="table-cell cell-feature">Inglés</div>
+                  <div class="table-cell">
+                    <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.116 14.884c.488.488 1.28.488 1.768 0l10-10c.488-.488.488-1.28 0-1.768s-1.28-.488-1.768 0l-9.08 9.15-4.152-4.15c-.488-.488-1.28-.488-1.768 0s-.488 1.28 0 1.768l5 5z" fill="#E55B13" fill-rule="evenodd"/>
+                      <h5>B2 (Cambridge) </h5>
+                    </svg>
+                  </div>
+                  <div class="table-cell">
+                    <svg class="enterprise-check" width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                      <title>check_blue</title> 
+                    </svg>
+                  </div>
+
+                  <div class="table-cell cell-feature">Alemán</div>
+                  <div class="table-cell">
+                    <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"></svg>
+                  </div>
+                  <div class="table-cell">
+                    <svg class="enterprise-check" width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.116 14.884c.488.488 1.28.488 1.768 0l10-10c.488-.488.488-1.28 0-1.768s-1.28-.488-1.768 0l-9.08 9.15-4.152-4.15c-.488-.488-1.28-.488-1.768 0s-.488 1.28 0 1.768l5 5z" fill="#E55B13" fill-rule="evenodd"/>
+                      <h5>A1.1 (get brit!)</h5>
+                    </svg>
+                  </div>
+
+                  <div class="table-cell cell-feature">Chino</div>
+                  <div class="table-cell">
+                    <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                      <img src="https://img.icons8.com/ios/50/000000/horizontal-line.png"/>
+                    </svg>
+                  </div>
+                  <div class="table-cell">
+                    <svg class="enterprise-check" width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                      <img src="https://img.icons8.com/ios/50/000000/horizontal-line.png"/>
+                    </svg>
+                  </div>
+
+              </div>
+              
+        </section>
+
+        <!--Seccion Competencias personales-->  
+
+        <section class="competencias-personales" id="competencias-personales">
+
+          <h1 class="section-header-contacto">Competencias Personales</h1>
+
+          <div class="max-width">
+            <div class="wrapper">
+
+              <div class="cols">
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front" style="background-image: url(/img/proactividad.jpg)">
+                      <div class="inner">
+                        <p>Proactividad</p>
+                      </div>
+                    </div>   
+                  </div>
+                </div>
+                
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front" style="background-image: url(/img/buen.jpg)">
+                      <div class="inner">
+                        <p>Buen Oyente</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front" style="background-image: url(img/equipo.jpg)">
+                      <div class="inner">
+                        <p>Trabajo Equipo</p>
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front" style="background-image: url(/img/flexible.jpg)">
+                      <div class="inner">
+                        <p>Flexibilidad</p>
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front" style="background-image: url(/img/motivations.jpeg)">
+                      <div class="inner">
+                        <p>Auto-
+                          Motivación</p>
+                      </div>
+                    </div>   
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front" style="background-image: url(img/asertivo.jpg)">
+                      <div class="inner">
+                        <p>Asertividad</p>
+                      </div>
+                    </div>     
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front" style="background-image: url(img/planification.jpg)">
+                      <div class="inner">
+                        <p>Planificación</p>
+                      </div>
+                    </div>   
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front" style="background-image: url(img/organization.png)">
+                      <div class="inner">
+                        <p>Organización</p>
+                      </div>
+                    </div>   
+                  </div>
+                </div>
+
+              </div>
+          
+        </section>
+
+        <!--Seccion Competencias Digitales-->
+
+        <section class="competencias-digitales" id="competencias-digitales">
+
+          <h1 class="section-header-contacto">Tecnologías y Herramientas</h1>
+
+          <div class="max-width">
+            <div class="wrapper">
+
+              <div class="cols">
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/mysql.png)"></div>       
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/visual-studio.png)"></div>       
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/code.png)"></div>       
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/python.png)"></div>       
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/java.png)"></div>       
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/c-sharp.png)"></div>       
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/letter-c.png)"></div>       
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/android.png)"></div>       
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/html.png)"></div>       
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/css-3.png)"></div>       
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/js.png)"></div>       
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/spring.png)"></div>       
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/linux.png)"></div>       
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/github.png)"></div>       
+                  </div>
+                </div>
+
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front-herramientas" style="background-image: url(/img/git.png)"></div>       
+                  </div>
+                </div>
+  
+          </div>
+          
+        </section>
+
+        <!--Parte del Footer--> 
+
+        <footer class="footer-distributed">
+          <div class="footer-right">
+            <a class="facebook" href="https://es-es.facebook.com/"><i class="fa fa-facebook"></i></a>
+            <a class="instagram" href="https://www.instagram.com/?hl=es"><i class="fa fa-instagram"></i></a>
+            <a class="linkedin" href="https://es.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+            <a class="github" href="https://github.com/Guada-cmd"><i class="fa fa-github"></i></a>
+          </div>
+              
+          <div class="footer-left">
+            <p class="footer-links">
+              <a class="link-1" href="/index.html">Home</a>
+              <a href="/sobreMi.html">Sobre mí</a>
+              <a href="/proyectos.html">Proyectos</a>
+              <a href="/contacto.html">Contacto</a>
+              <a href="#">Mapa del Sitio</a>
+            </p><p>2021 · Sitio Web Personal · Guadalupe Plaza </p>
+          </div>
+        </footer>
+
+        <!--Parte Final--> 
+
+      <script src="script.js"></script>
+    </body>
+</html>
