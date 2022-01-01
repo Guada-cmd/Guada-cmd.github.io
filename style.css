@@ -188,7 +188,7 @@
   
   @keyframes typing {
     from {
-      width: 0
+      width: 0ch;
     }
   }
       
@@ -333,6 +333,9 @@
     .principal .contenido-principal .texto-3{
         font-size: 32px;
     }
+    .typing-demo {
+        width: 22ch;
+    }
 }
 
 @media (max-width: 500px) {
@@ -342,6 +345,9 @@
     }
     .principal .contenido-principal .texto-3{
         font-size: 27px;
+    }
+    .typing-demo {
+        width: 18ch;
     }
 }
 
