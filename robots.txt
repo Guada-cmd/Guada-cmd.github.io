@@ -1,0 +1,4 @@
+Sitemap: https://guada-cmd.github.io/sitemap.xml
+
+User-agent: *
+Disallow:
