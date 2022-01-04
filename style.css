@@ -14,6 +14,13 @@ h3 {
     font-size: 24px;
 }
 
+h4 {
+    color: #111; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: center; 
+}
+
 .title-seccion { 
     color: #111; 
     font-family: 'Ubuntu', sans-serif;
@@ -212,6 +219,173 @@ h3 {
 }
 
 /* estilo seccion sobre mi */
+
+
+.progress {
+	overflow: hidden;
+	height: 20px;
+	background-color: #ccc;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	width: 153px;
+	margin-top: 20px;
+
+}
+
+.progress-bar-eclipse {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #2C2256;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-bar-mysql {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #00758F;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-bar-visual {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #6E64C3;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-bar-code {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #007BCD;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-bar-git {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #007BCD;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-bar-gitHub {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #5C6BC0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-bar-boot {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #6DB33F;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-bar-script {
+	width: 0;
+	height: 100%;
+	color: black;
+	text-align: center;
+    background-color: #FFDF00;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-bar-css {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #2196F3;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-bar-html {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #FF4B00;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-bar-android {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #19C369;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-bar-c {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #00A9EA;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-bar-cs {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #782379;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-bar-java {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #DE8E2F;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-bar-python {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #3C78A9;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.progress-bar-linux {
+	width: 0;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+    background-color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.progress-striped .progress-bar {
+    background-size: 40px 40px;
+}
+.progress.active .progress-bar {
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite;
+    -moz-animation: progress-bar-stripes 2s linear infinite;
+}
 
 .sobre_mi .title::after{
     content: "Quien soy";
@@ -510,6 +684,9 @@ p {
 
 .cv:hover, .cv:focus {
     box-shadow: inset 0 -3.25em 0 0 var(--hover);
+    transform:scale(1.1); 
+    -webkit-transform:scale(1.1);
+    cursor:pointer;
 }
 
 

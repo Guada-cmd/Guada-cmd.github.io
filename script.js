@@ -56,7 +56,13 @@ function myFunction() {
 
 function myFunctionCV() {
   document.getElementById("btn-cv").onclick = function () {
-    location.href = "https://pruebasaluuclm-my.sharepoint.com/:b:/r/personal/guadalupe_plaza_alu_uclm_es/Documents/Guadalupe_Plaza.pdf?csf=1&web=1&e=knCPum";
+    location.href = "https://drive.google.com/file/d/10payd6FAQegIZZ61q6Samm3OGOf1ZfFR/view?usp=sharing";
 };
 }
 
+$(function() {
+  $('progress').each(function() {
+    var max = $(this).val();
+    $(this).val(0).animate({ value: max }, { duration: 2000, easing: 'easeOutCirc' });
+			});
+});
