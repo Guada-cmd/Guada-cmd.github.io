@@ -26,13 +26,33 @@ Algunas de las métricas más importantes como:
 - Tiempo medio de visitas o permanencia.
 - Porcentaje o tasa de rebote.
 
-Las podemos obtener haciendo uso de **Google Analytics**, que nos proporciona herramientas que nos ayudan a analizar el comportamiento de los visitantes en nuestro sitio, proporcionando
-métricas muy interesantes. 
+Las podemos obtener haciendo uso de **Google Analytics**, que nos proporciona herramientas que nos ayudan a analizar el comportamiento de los visitantes en nuestro sitio, proporcionando métricas muy interesantes. 
 
-Es por eso que se decidió relacionar este sitio web con Google Analytics. Esta herramienta nos ha permitido ver datos muy interesantes acerca del sitio.
+Es por eso que se decidió relacionar este sitio web con Google Analytics. Esta herramienta nos ha permitido ver datos muy interesantes acerca del sitio como por ejemplo que 
+esta bién valorado en el aspecto de **responsive**.
 
 ## Poscionamiento.
 
 Para que el objetivo de este trabajo se cumpla, es necesario que reciba visitas, y para ello cuando alguién quiera hacer una consulta a través de un buscador usando palabras
 claves relacionadas con este sitio debería de aparecer.
 
+Por este motivo también se ha decidido crear una cuenta con **Google My Business** que es una herramienta gratuita que te permite crear y promocionar el pérfil y el sitio web de 
+la empresa en el Buscador de Google y Maps.
+
+Para este apartado también hemos usado la herramienta de **Google Search console** y la hemos enlazado con nuestra cuenta anterior de **Google Analytics**, este servicio nos permite
+comprobar el estado de indexación de un sitio web por el buscador y optimizar su visibilidad. A través de esta herramienta hemos añadido el **sitemap** de la página.
+
+Continuando con los aspectos a tener en cuenta con el posicionamiento, se han intentado seguir todas las recomendaciones del apartado **Posicionamiento SEO On Page: Contenido**.
+Para poder hacer esto hemos usado la extensión para navegadores **Seo Quake** que nos ha proporcionado una serie de datos muy interesantes y nos ha permitido corregir errores 
+y advertencias. Por ejemplo, gracias a esta herramienta pudimos superar la parte de emtadescripción, palabras clave o la sección de schema.org que no teniamos correctamente.
+
+Haciendo todo esto hemos conseguido que al poner palabras clave sobre nuestro sitio aparezca como primer resultado, como por ejemplo Guadalupe Plaza Gómez estudiante.
+
+Por último, hemos usado la herrmaienta de **Google PageSpeed Insights** para comprobar los tiempos de carga de la web, obteniendo los siguientes resultados:
+- Rendimiento móvil: **86%**.
+- Rendimiento ordenador: **99%**.
+
+## Conclusión.
+
+Este trabajo ha sido interesante y entretenido de hacer, creo que se han obtenido y aprendido conocimientos nuevos acerca de muchos aspectos.
+Además, la experiencia obtenida en el desarrollo de este trabajo se va a poder usar en un futuro cercano para muchas otras áreas también.
