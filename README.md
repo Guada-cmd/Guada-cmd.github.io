@@ -46,7 +46,7 @@ Continuando con los aspectos a tener en cuenta con el posicionamiento, se han in
 Para poder hacer esto hemos usado la extensión para navegadores **Seo Quake** que nos ha proporcionado una serie de datos muy interesantes y nos ha permitido corregir errores 
 y advertencias. Por ejemplo, gracias a esta herramienta pudimos superar la parte de emtadescripción, palabras clave o la sección de schema.org que no teniamos correctamente.
 
-Haciendo todo esto hemos conseguido que al poner palabras clave sobre nuestro sitio aparezca como primer resultado, como por ejemplo Guadalupe Plaza Gómez estudiante.
+Haciendo todo esto hemos conseguido que al poner palabras clave sobre nuestro sitio aparezca como primer resultado, como por ejemplo al poner mi nombre completo.
 
 Por último, hemos usado la herrmaienta de **Google PageSpeed Insights** para comprobar los tiempos de carga de la web, obteniendo los siguientes resultados:
 - Rendimiento móvil: **86%**.
