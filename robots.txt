@@ -1,1 +1,7 @@
 Sitemap: https://guada-cmd.github.io/sitemap.xml
+
+User-agent: *
+Disallow: /img/
+Disallow: /js/
+Disallow: /css/
+Disallow: /README.md
